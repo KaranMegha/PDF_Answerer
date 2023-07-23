@@ -16,7 +16,7 @@ from flask_cors import CORS, cross_origin
 # Get your API keys from openai, you will need to create an account.
 # Here is the link to get the keys: https://platform.openai.com/account/billing/overview
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 # location of the pdf file/files.
 reader = PdfReader('./e-Notes_PDF_All-Units_29042019072534AM.pdf')
